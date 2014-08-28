@@ -21,6 +21,7 @@
 		ADE7205619AD71DD003F283C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE7203819AD71DD003F283C /* UIKit.framework */; };
 		ADE7205E19AD71DD003F283C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADE7205C19AD71DD003F283C /* InfoPlist.strings */; };
 		ADE7206019AD71DD003F283C /* sqlite3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE7205F19AD71DD003F283C /* sqlite3Tests.m */; };
+		ADE7206A19AD7416003F283C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE7206919AD7416003F283C /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		ADE7205B19AD71DD003F283C /* sqlite3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sqlite3Tests-Info.plist"; sourceTree = "<group>"; };
 		ADE7205D19AD71DD003F283C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADE7205F19AD71DD003F283C /* sqlite3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlite3Tests.m; sourceTree = "<group>"; };
+		ADE7206919AD7416003F283C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE7206A19AD7416003F283C /* libsqlite3.dylib in Frameworks */,
 				ADE7203719AD71DD003F283C /* CoreGraphics.framework in Frameworks */,
 				ADE7203919AD71DD003F283C /* UIKit.framework in Frameworks */,
 				ADE7203519AD71DD003F283C /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		ADE7203319AD71DD003F283C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADE7206919AD7416003F283C /* libsqlite3.dylib */,
 				ADE7203419AD71DD003F283C /* Foundation.framework */,
 				ADE7203619AD71DD003F283C /* CoreGraphics.framework */,
 				ADE7203819AD71DD003F283C /* UIKit.framework */,
